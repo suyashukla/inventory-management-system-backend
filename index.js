@@ -1,6 +1,7 @@
 import express from 'express';
-import { PORT, MongoDBURL } from '../Backend/config.js';
+import { PORT, MongoDBURL } from './config.js';
 import mongoose from 'mongoose';
+import { Product } from './models/productModel.js';
 
 const app = express();
 
